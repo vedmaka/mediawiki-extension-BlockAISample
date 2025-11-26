@@ -1,0 +1,22 @@
+{
+	"name": "BlockAISample",
+	"author": "Alexey <vedmaka>",
+	"version": "1.0.0",
+	"description": "Blocks AI Sample",
+	"type": "hook",
+	"requires": {
+		"MediaWiki": ">= 1.39"
+	},
+	"license-name": "MIT",
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\BlockAISample\\": "includes/"
+	},
+	"attributes": {
+		"BlockAI": {
+			"Evals": {
+				"BlockAISample": "MediaWiki\\Extension\\BlockAISample\\Evals\\BlockAISample"
+			}
+		}
+	},
+	"manifest_version": 2
+}
