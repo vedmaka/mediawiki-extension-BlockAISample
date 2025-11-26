@@ -3,7 +3,7 @@ This repository implements a custom MediaWiki extension that adds a custom evalu
 In order to create a new evaluation rule, following the steps:
 
 1. Create new MediaWiki extension or fork this repository
-2. Create new class in `includes/Evals`
+2. Create new class in `includes/Evals`. The class must implement `IEval` interface
 3. Make sure the namespace is loaded in `extension.json` via `AutoloadNamespaces`
 4. Add the class name and namespaced class name to the `extension.json` under `attributes` section
 
